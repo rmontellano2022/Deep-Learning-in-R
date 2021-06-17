@@ -9,6 +9,48 @@ This is an advanced level workshop which requires participants to be intermediat
 Need to talk to team #1
 
 # Installation Instructions
+In preparation for the upcoming workshop you will need to install R, RStudio, the necessary packages, Anaconda, and the workshop materials. Please perform these steps before the start of the workshop - they can take up to an hour to complete.
+
+1. Install R
+
+Download R by clicking the link here: https://cloud.r-project.org/
+
+Select your operating system and then click "base" (Windows users) or "R-4.0.3.pkg". Double-click this file once it has finished downloading and follow the instructions to install it.
+
+2. Install RStudio
+
+Download RStudio by visiting this link: https://rstudio.com/products/rstudio/download/
+
+Scroll down and click the Download button beneath "RStudio Desktop - Open Source License - Free". Double-click this file once it has finished downloading and follow the instructions to install it.
+
+3. Install the necessary packages
+
+Install Keras by running these commands in the RStudio console or an R script:
+This will install the keras R package.
+install.packages("keras")
+
+This will setup the Python environment, including Keras and tensorflow.
+keras::install_keras()
+
+Confirm that Python setup was successful - this must return "TRUE".
+keras::is_keras_available()
+Install Image Magick
+install.packages("magick")
+library(magick)
+4. Anaconda notes
+Anaconda is required on Windows, whereas MacOS and Linux may be ok without it. However it will be easiest to manage & troubleshoot when everyone is using Keras through Anaconda.
+Install Anaconda here: https://docs.anaconda.com/anaconda/install/ 
+MacOS users with R installed via Homebrew, or Linux users, see extra install info here.
+5. Download the workshop materials
+
+Download the workshop materials by visiting the GitHub repository: https://github.com/dlab-berkeley/Deep-Learning-in-R 
+
+To download the repository, click the green button in the top right hand corner that says "Code" and then select "Download ZIP". You can then unzip the contents of the downloaded folder somewhere accessible on your local computer (we recommend your Desktop).
+
+We will take a few minutes at the start of the workshop to make sure everyone has R and RStudio installed and the workshop materials downloaded. Please feel free to email dlab-frontdesk@berkeley.edu or visit our help desk at https://dlab.berkeley.edu/frontdesk if you have any questions.
+
+If you are a Git user, simply clone this repository by opening a terminal and typing: “git clone https://github.com/dlab-berkeley/Deep-Learning-in-R.git”.
+
 
 # Is R not running on your laptop?
 
