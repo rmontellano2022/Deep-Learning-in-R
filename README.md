@@ -1,64 +1,29 @@
 # Deep Learning in R
+This is the repository for D-Lab's R-Graphics workshop. Laptop, Internet connection, and Zoom account required.
 
-This is the repository for D-Lab’s six-hour Introduction to Deep Learning in R workshop. [View the associated slides here](https://dlab-berkeley.github.io/Deep-Learning-in-R/slides.html#1).
+**Prior experience with R is assumed such as R-Fundamentals Parts 1 through 4 or equivalent knowledge.
+This is an advanced level workshop which requires participants to be intermediate R users and have had some prior exposure to machine learning.**
 
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/dlab-berkeley/Deep-Learning-in-R/master?urlpath=rstudio)
+# Workshop Goals
 
-## Objectives
+Need to talk to team #1
 
-Convey the basics of deep learning in R using keras on image datasets. Students are empowered with a general grasp of deep learning, example code that they can modify, a working computational environment, and resources for further study.
+# Installation Instructions
 
-## Content outline
+# Is R not running on your laptop?
 
-* Installation
-  * R and RStudio
-  * Keras and Tensorflow
-  * Helper packages
-* What is “deep” learning? 
-* Understanding the dataset
-* Dataset splitting: training, test, cross-validation
-  * Defining moving parts of a deep learning model 
-  * Understanding a loss function, activation function, and metrics
-  * Performance evaluation
-* Part 1-2
-  * MNIST 0-9 hand-written digit example 
-  * Dogs or humans?
-* Part 3-4
-  * Pre-trained models + fine-tuning
-  * X-ray classification: abdominal vs. chest classification
-  * Google Cloud Machine Learning
 
-## Prerequisites
 
-This is an advanced level workshop. Participants should be intermediate R users and have had some prior exposure to machine learning.
+# Run the code! 
 
-We assume the following background:
+Make instructions
 
-* D-Lab's [Machine Learning in R introduction](https://github.com/dlab-berkeley/Machine-Learning-in-R) (6 hours)
-* Or, comparable experience/training, assuming familiarity with:
-  * Basic R syntax
-  * statistical concepts such as mean and standard deviation
-  * Train/test splitting and cross-validation
-  * Dataset cleaning
-  * Overfitting / underfitting
-  * Hyperparameter customization
+# How to get help?
 
-If you are not comfortable installing packages, writing your own R code, and using RStudio, this will not be a good workshop for you.
+* Videos
+    * J.J. Allaire [talk at RStudioConf 2018](https://www.rstudio.com/resources/videos/machine-learning-with-tensorflow-and-r/)
 
-## Technology requirements
-
-Please bring a laptop with the following:
-
-* [R version](https://cloud.r-project.org/)
-3.4 or greater
-* [RStudio editor](https://www.rstudio.com/products/rstudio/download/#download) is
-highly recommended but not required.
-
-## Getting Started
-
-Be sure to [follow the install instructions](https://github.com/dlab-berkeley/Deep-Learning-in-R/blob/master/participant-instructions.md) to get started. This process can take about 30 minutes, so be sure to try and do this before class. 
-
-## Resources
+# Resources
 
 * D-Lab [Machine Learning Working Group](http://dlab.berkeley.edu/working-groups/machine-learning-working-group-0)
 
@@ -89,9 +54,6 @@ Be sure to [follow the install instructions](https://github.com/dlab-berkeley/De
 
 * UToronto CSC 321 - [Intro to Deep Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
 
-* Videos
-    * J.J. Allaire [talk at RStudioConf 2018](https://www.rstudio.com/resources/videos/machine-learning-with-tensorflow-and-r/)
-
 * Books
     * F. Chollet and J.J. Allaire - [Deep Learning in R](https://www.manning.com/books/deep-learning-with-r)
     * Charniak E - [Introduction to Deep Learning](https://mitpress.mit.edu/books/introduction-deep-learning)  
@@ -101,3 +63,44 @@ Be sure to [follow the install instructions](https://github.com/dlab-berkeley/De
 * Python
     * [Qingkai Kong's Artificial Neural Network Fundamentals in Python](https://github.com/dlab-berkeley/ANN-Fundamentals)
 
+
+# About the UC Berkeley D-Lab
+
+D-Lab works with Berkeley faculty, research staff, and students to advance data-intensive social science and humanities research. Our goal at D-Lab is to provide practical training, staff support, resources, and space to enable you to use R for your own research applications. Our services cater to all skill levels and no programming, statistical, or computer science backgrounds are necessary. We offer these services in the form of workshops such as R Fundamentals, one-to-one consulting, and working groups that cover a variety of research topics, digital tools, and programming languages.  
+
+Visit the [D-Lab homepage](http://dlab.berkeley.edu/) to learn more about us. View our [calendar](http://dlab.berkeley.edu/calendar-node-field-date) for upcoming events, and also learn about how to utilize our [consulting](http://dlab.berkeley.edu/consulting) and [data](http://dlab.berkeley.edu/data-resources) services. 
+
+(include definition of IOKN2K!)
+
+# Other D-Lab R Workshops
+
+Check out the [D-Lab Computational Text Analysis Working Group by clicking here](http://dlabctawg.github.io/)
+
+### Basic competency
+
+
+
+### Intermediate/advanced copmetency
+
+
+
+### Legacy workshops (need updating)
+
+
+# Contributors 
+
+
+---
+<div style="display:inline-block;vertical-align:middle;">
+<a href="https://dlab.berkeley.edu/" target="_blank">
+<img src ="https://dlab.berkeley.edu/sites/default/files/logo.png" width="60" align="left" border=0 style="border:0; text-decoration:none; outline:none">
+</a>
+</div>
+<div style="display:inline-block;vertical-align:middle;align:left">
+    <div style="font-size:larger">D-Lab @ University of California - Berkeley
+    </br>
+    <a href="https://dlab.berkeley.edu" target="_blank">https://dlab.berkeley.edu</a>
+    </br>
+    &nbsp;
+    </div>
+</div>
